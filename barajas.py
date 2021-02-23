@@ -74,8 +74,8 @@ def simulacion(tamano_mano, intentos):
 def main():
     aux = 0
     while (aux == 0):
-        tamano_mano = int(input('Ingrese el tamano de la mano (menor a 10): '))
-        if (tamano_mano > 0) and (tamano_mano <11):
+        tamano_mano = int(input('Ingrese el tamano de la mano (entre 2 y 10): '))
+        if (tamano_mano > 1) and (tamano_mano <11):
             aux += 1
     
     intentos = int(input('Ingrese el numero de intentos que desea que realice la simulacion: '))
